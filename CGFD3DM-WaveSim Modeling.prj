@@ -1,0 +1,62 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3904721761" file="/data/sharedisk/preSD/edisk/TempCompute/AppGuiDesign/CGFD3DM-WaveSim Modeling.prj" location="/data/sharedisk/preSD/edisk/TempCompute/AppGuiDesign" name="CGFD3DM-WaveSim Modeling" target="target.mlapps" target-name="打包为 App">
+    <param.appname>CGFD3DM-WaveSim Modeling</param.appname>
+    <param.authnamewatermark>Zhenjiang Yu</param.authnamewatermark>
+    <param.email>yuzj@sustech.edu.cn</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>suitable for Curved Grid Finite-Difference 3D Seismic Wave Simulation Method (CGFD3DM-WaveSim).
+released on Sep6, 2024 by Yu at SUSTech.</param.summary>
+    <param.description>Applicable for Fortran-MPI (Zhang &amp; Chen 2006,2012) and GPU-CoPara (Yu et al. 2024).
+Generate Grid &amp; Media model.</param.description>
+    <param.screenshot>/tmp/tp896e1767_95ca_411d_a683_b8f0ffcc3153.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>812d89a8-2141-4b33-8251-b5a8a32113f7</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/getapp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/data/sharedisk/preSD/edisk/TempCompute" name="AppGuiDesign" optional="false">/data/sharedisk/preSD/edisk/TempCompute/AppGuiDesign</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/home/yzj/matlab23</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>6.2.0-34-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
